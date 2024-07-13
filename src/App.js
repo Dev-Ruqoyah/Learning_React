@@ -3,6 +3,7 @@ import React from 'react';
 import Components from './componennts/component';
 import Garage from './componennts/props';
 import Football from './componennts/event';
+import Counter from './componennts/counter';
 
 // import myImage from '.images/images.jpzg';
 
@@ -28,6 +29,9 @@ function App() {
       {/* <Product image ={image1} name ={"wristwatch"} details ={"A silver wristwwatch"} /> */}
        <li>{MyList}</li>
       <p>{x < 10 ? "Hello" : "Goodbye"}</p>
+
+
+      <Counter/>
     </div>
   );
 }
