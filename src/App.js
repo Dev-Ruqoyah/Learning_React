@@ -1,16 +1,18 @@
 import React from 'react';
+import './index.css';
 // import ReactDOM from "react-dom/client";
-import Components from './componennts/component';
-import Garage from './componennts/props';
-import Football from './componennts/event';
-import Counter from './componennts/counter';
+// import Components from './componennts/component';
+// import Garage from './componennts/props';
+// import Football from './componennts/event';
+// import Counter from './componennts/counter';
+import Dropdown from './componennts/dropdown';
 
 // import myImage from '.images/images.jpzg';
 
-const Array = ["Mango","Orange", "Cashew"]
-const MyList = Array.map((item) => <p>{item}</p>)
+// const Array = ["Mango","Orange", "Cashew"]
+// const MyList = Array.map((item) => <p>{item}</p>)
 
-const x = 5 ;
+// const x = 5 ;
 // let text = "Goodbye"
 // if( x < 10){
 //   text = "Hello";
@@ -20,18 +22,19 @@ const x = 5 ;
 function App() {
   return (
     <div className="App">
-      <Components name = "Rukayat" age= "12"/>
+      {/* <Components name = "Rukayat" age= "12"/>
       <Components name = "Peace" age  = "22" />
       <Components name = "Peace" age  = "22" />
       <Garage/>
-      <Football/>
+      <Football/> */}
       {/* <Product image = {myImage} name ={"wristwatch"} details ={"A silver wristwwatch"} /> */}
       {/* <Product image ={image1} name ={"wristwatch"} details ={"A silver wristwwatch"} /> */}
-       <li>{MyList}</li>
-      <p>{x < 10 ? "Hello" : "Goodbye"}</p>
+       {/* <li>{MyList}</li> */}
+      {/* <p>{x < 10 ? "Hello" : "Goodbye"}</p> */}
+      <Dropdown/>
 
 
-      <Counter/>
+      {/* <Counter/> */}
     </div>
   );
 }
